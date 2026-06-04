@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShieldGuard — Защита цифровых активов</title>
+  <meta name="description" content="Профессиональная кибербезопасность для бизнеса. Мониторинг угроз, аудит, защита инфраструктуры 24/7.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2L4 7v7c0 6.1 4.3 11.8 10 13 5.7-1.2 10-6.9 10-13V7L14 2z" stroke="url(#logoGrad)" stroke-width="2" fill="none"/><defs><linearGradient id="logoGrad" x1="4" y1="2" x2="24" y2="22"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+        </span>
+        ShieldGuard
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#benefits">Преимущества</a>
+        <a href="#how">Как работает</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#pricing">Тарифы</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#cta" class="btn btn--sm btn--gradient nav__cta">Начать защиту</a>
+      <button class="nav__burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+    <div class="hero__grid"></div>
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <div class="badge">
+          <span class="badge__dot"></span>
+          Мониторинг угроз 24/7
+        </div>
+        <h1 class="hero__title">
+          Защитите бизнес от<br>
+          <span class="gradient-text">киберугроз</span> навсегда
+        </h1>
+        <p class="hero__subtitle">
+          Комплексная защита инфраструктуры, данных и сотрудников.<br>
+          Обнаруживаем атаки до того, как они нанесут ущерб.
+        </p>
+        <ul class="hero__checks">
+          <li>
+            <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="url(#checkGrad)"/><path d="M6 10l3 3 5-6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="checkGrad" x1="0" y1="0" x2="20" y2="20"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+            SOC-центр с реакцией за 15 минут
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="url(#checkGrad2)"/><path d="M6 10l3 3 5-6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="checkGrad2" x1="0" y1="0" x2="20" y2="20"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+            Соответствие 152-ФЗ и ISO 27001
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="url(#checkGrad3)"/><path d="M6 10l3 3 5-6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="checkGrad3" x1="0" y1="0" x2="20" y2="20"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+            Пентест и аудит безопасности
+          </li>
+        </ul>
+        <div class="hero__actions">
+          <a href="#pricing" class="btn btn--gradient btn--lg">Получить аудит бесплатно</a>
+          <a href="#how" class="btn btn--outline btn--lg">Узнать больше</a>
+        </div>
+        <div class="hero__social-proof">
+          <div class="hero__avatars">
+            <span class="avatar" style="background:#6366f1">АК</span>
+            <span class="avatar" style="background:#0891b2">МС</span>
+            <span class="avatar" style="background:#1e40af">ДВ</span>
+            <span class="avatar" style="background:#7c3aed">ЕП</span>
+            <span class="avatar avatar--more">+</span>
+          </div>
+          <span class="hero__clients">1200+ довольных клиентов</span>
+        </div>
+      </div>
+      <div class="hero__visual reveal reveal--delay">
+        <div class="hero__glow"></div>
+        <div class="hero__frame">
+          <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=750&fit=crop&q=80" alt="Специалист по кибербезопасности за мониторингом угроз" width="480" height="600" loading="eager">
+        </div>
+        <div class="hero__float-card">
+          <div class="hero__float-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5.5-3.8 10.7-8 12-4.2-1.3-8-6.5-8-12V6l8-4z" stroke="url(#floatGrad)" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="url(#floatGrad)" stroke-width="1.5" stroke-linecap="round"/><defs><linearGradient id="floatGrad" x1="4" y1="2" x2="20" y2="22"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+          </div>
+          <div>
+            <div class="hero__float-value">99.97%</div>
+            <div class="hero__float-label">Уровень защиты</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee__track">
+        <span>CrowdStrike</span><span class="marquee__dot">·</span>
+        <span>Palo Alto Networks</span><span class="marquee__dot">·</span>
+        <span>Fortinet</span><span class="marquee__dot">·</span>
+        <span>Check Point</span><span class="marquee__dot">·</span>
+        <span>Kaspersky</span><span class="marquee__dot">·</span>
+        <span>SentinelOne</span><span class="marquee__dot">·</span>
+        <span>Microsoft Defender</span><span class="marquee__dot">·</span>
+        <span>Splunk</span><span class="marquee__dot">·</span>
+        <span>Cloudflare</span><span class="marquee__dot">·</span>
+        <span>Cisco Secure</span><span class="marquee__dot">·</span>
+        <span>CrowdStrike</span><span class="marquee__dot">·</span>
+        <span>Palo Alto Networks</span><span class="marquee__dot">·</span>
+        <span>Fortinet</span><span class="marquee__dot">·</span>
+        <span>Check Point</span><span class="marquee__dot">·</span>
+        <span>Kaspersky</span><span class="marquee__dot">·</span>
+        <span>SentinelOne</span><span class="marquee__dot">·</span>
+        <span>Microsoft Defender</span><span class="marquee__dot">·</span>
+        <span>Splunk</span><span class="marquee__dot">·</span>
+        <span>Cloudflare</span><span class="marquee__dot">·</span>
+        <span>Cisco Secure</span><span class="marquee__dot">·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Почему мы</span>
+        <h2 class="section__title">Полная защита<br><span class="gradient-text">на каждом уровне</span></h2>
+        <p class="section__desc">Многоуровневая система безопасности, которая адаптируется под вашу инфраструктуру и растёт вместе с бизнесом.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Защита периметра</h3>
+          <p>Firewall, IDS/IPS и WAF для блокировки атак до проникновения в сеть вашей компании.</p>
+        </div>
+        <div class="benefit-card reveal reveal--delay">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Мониторинг 24/7</h3>
+          <p>SOC-аналитики отслеживают аномалии круглосуточно и реагируют на инциденты за минуты.</p>
+        </div>
+        <div class="benefit-card reveal reveal--delay-2">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M7 11V7a5 5 0 0110 0v4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Шифрование данных</h3>
+          <p>AES-256, управление ключами и защита данных в покое и при передаче по всем каналам.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="1.5"/><circle cx="8.5" cy="7" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M20 8v6M23 11h-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Обучение сотрудников</h3>
+          <p>Фишинг-симуляции и тренинги снижают человеческий фактор — главную уязвимость компании.</p>
+        </div>
+        <div class="benefit-card reveal reveal--delay">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" stroke="currentColor" stroke-width="1.5"/><path d="M14 2v6h6M9 15l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Аудит и compliance</h3>
+          <p>Подготовка к проверкам, соответствие 152-ФЗ, GDPR и международным стандартам ISO 27001.</p>
+        </div>
+        <div class="benefit-card reveal reveal--delay-2">
+          <div class="benefit-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Реагирование на инциденты</h3>
+          <p>IR-команда локализует угрозу, восстанавливает системы и проводит форензику за 4 часа.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats" id="stats">
+    <div class="container stats__grid">
+      <div class="stat reveal">
+        <div class="stat__number" data-target="1200" data-suffix="+">0</div>
+        <div class="stat__label">Защищённых компаний</div>
+      </div>
+      <div class="stat reveal reveal--delay">
+        <div class="stat__number" data-target="99.97" data-suffix="%" data-decimal="2">0</div>
+        <div class="stat__label">Uptime SLA</div>
+      </div>
+      <div class="stat reveal reveal--delay-2">
+        <div class="stat__number" data-target="15" data-suffix=" мин">0</div>
+        <div class="stat__label">Среднее время реакции</div>
+      </div>
+      <div class="stat reveal reveal--delay-3">
+        <div class="stat__number" data-target="50000" data-suffix="+">0</div>
+        <div class="stat__label">Заблокированных атак</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section--light" id="how">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Процесс</span>
+        <h2 class="section__title">Как это <span class="gradient-text">работает</span></h2>
+        <p class="section__desc">Три простых шага от первого аудита до полной защиты вашей инфраструктуры.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step__number">01</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4v24M4 16h24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Аудит и оценка рисков</h3>
+          <p>Сканируем инфраструктуру, выявляем уязвимости и составляем карту угроз с приоритетами.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true">
+          <svg width="80" height="24" viewBox="0 0 80 24"><path d="M0 12h60M60 12l-8-8M60 12l-8 8" stroke="url(#arrowGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/><defs><linearGradient id="arrowGrad" x1="0" y1="12" x2="80" y2="12"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+        </div>
+        <div class="step reveal reveal--delay">
+          <div class="step__number">02</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2l12 6v8c0 7.7-5.1 14.9-12 17-6.9-2.1-12-9.3-12-17V8l12-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Внедрение защиты</h3>
+          <p>Разворачиваем EDR, SIEM и политики безопасности без простоя критичных систем.</p>
+        </div>
+        <div class="step__connector" aria-hidden="true">
+          <svg width="80" height="24" viewBox="0 0 80 24"><path d="M0 12h60M60 12l-8-8M60 12l-8 8" stroke="url(#arrowGrad2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/><defs><linearGradient id="arrowGrad2" x1="0" y1="12" x2="80" y2="12"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+        </div>
+        <div class="step reveal reveal--delay-2">
+          <div class="step__number">03</div>
+          <div class="step__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 20l8-8 6 6 10-14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 4h4v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Мониторинг и рост</h3>
+          <p>Непрерывный контроль, ежемесячные отчёты и адаптация защиты под новые угрозы.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Отзывы</span>
+        <h2 class="section__title">Нам доверяют <span class="gradient-text">лидеры рынка</span></h2>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-card__quote">"</div>
+          <p class="review-card__text">ShieldGuard помог нам пройти аудит ISO 27001 с первого раза. За полгода не было ни одного успешного проникновения. Команда реагирует молниеносно.</p>
+          <div class="review-card__author">
+            <span class="avatar avatar--lg" style="background:#1e40af">ИК</span>
+            <div>
+              <div class="review-card__name">Игорь Козлов</div>
+              <div class="review-card__role">CISO, FinTech Group</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 из 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal--delay">
+          <div class="review-card__quote">"</div>
+          <p class="review-card__text">После внедрения SOC-центра мы сократили время реагирования на инциденты с 6 часов до 12 минут. Это полностью изменило нашу культуру безопасности.</p>
+          <div class="review-card__author">
+            <span class="avatar avatar--lg" style="background:#0891b2">АМ</span>
+            <div>
+              <div class="review-card__name">Анна Морозова</div>
+              <div class="review-card__role">CTO, RetailPro</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 из 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal--delay-2">
+          <div class="review-card__quote">"</div>
+          <p class="review-card__text">Пентест выявил критические уязвимости, о которых мы даже не подозревали. Отчёт был детальным, а исправления — с чёткими инструкциями для нашей команды.</p>
+          <div class="review-card__author">
+            <span class="avatar avatar--lg" style="background:#6366f1">ДС</span>
+            <div>
+              <div class="review-card__name">Дмитрий Соколов</div>
+              <div class="review-card__role">Директор IT, LogiTrans</div>
+            </div>
+            <div class="review-card__stars" aria-label="5 из 5">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section section--light" id="pricing">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">Тарифы</span>
+        <h2 class="section__title">Прозрачные <span class="gradient-text">цены</span></h2>
+        <p class="section__desc">Выберите план, который соответствует масштабу вашего бизнеса.</p>
+      </div>
+      <div class="pricing-toggle reveal">
+        <span class="pricing-toggle__label pricing-toggle__label--active" data-period="month">Месяц</span>
+        <button class="pricing-toggle__switch" id="pricingSwitch" aria-label="Переключить период оплаты">
+          <span class="pricing-toggle__knob"></span>
+        </button>
+        <span class="pricing-toggle__label" data-period="year">Год <span class="pricing-toggle__badge">−20%</span></span>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-card__header">
+            <h3>Старт</h3>
+            <p>Для малого бизнеса до 50 сотрудников</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount" data-month="29 900" data-year="23 920">29 900</span>
+            <span class="pricing-card__currency">₽/мес</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Базовый аудит безопасности</li>
+            <li>EDR на 50 рабочих станций</li>
+            <li>Email-фильтрация и антиспам</li>
+            <li>Ежемесячный отчёт</li>
+            <li>Поддержка в рабочие часы</li>
+          </ul>
+          <a href="#cta" class="btn btn--outline btn--full">Выбрать план</a>
+        </div>
+        <div class="pricing-card pricing-card--popular reveal reveal--delay">
+          <div class="pricing-card__badge">Популярный</div>
+          <div class="pricing-card__header">
+            <h3>Бизнес</h3>
+            <p>Для средних компаний до 500 сотрудников</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount" data-month="79 900" data-year="63 920">79 900</span>
+            <span class="pricing-card__currency">₽/мес</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>SOC-мониторинг 24/7</li>
+            <li>SIEM + EDR без ограничений</li>
+            <li>Пентест раз в квартал</li>
+            <li>Обучение сотрудников</li>
+            <li>IR-команда за 15 минут</li>
+            <li>Compliance-аудит</li>
+          </ul>
+          <a href="#cta" class="btn btn--white btn--full">Выбрать план</a>
+        </div>
+        <div class="pricing-card reveal reveal--delay-2">
+          <div class="pricing-card__header">
+            <h3>Enterprise</h3>
+            <p>Для крупных организаций и холдингов</p>
+          </div>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount" data-month="199 900" data-year="159 920">199 900</span>
+            <span class="pricing-card__currency">₽/мес</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Выделенная IR-команда</li>
+            <li>Zero Trust архитектура</li>
+            <li>Red Team / Blue Team</li>
+            <li>Форензика и расследования</li>
+            <li>Персональный CISO-as-a-Service</li>
+            <li>SLA 99.99%</li>
+          </ul>
+          <a href="#cta" class="btn btn--outline btn--full">Связаться с нами</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <div class="section__header reveal">
+        <span class="section__tag">FAQ</span>
+        <h2 class="section__title">Частые <span class="gradient-text">вопросы</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>Как быстро вы можете начать мониторинг нашей инфраструктуры?</span>
+            <svg class="faq-item__chevron" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Базовый мониторинг запускается за 48–72 часа после подписания договора. Полное развёртывание SOC-центра с SIEM и EDR занимает от 5 до 14 рабочих дней в зависимости от сложности инфраструктуры.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal--delay">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>Соответствует ли ваша защита требованиям 152-ФЗ?</span>
+            <svg class="faq-item__chevron" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Да. Мы помогаем организациям выполнить все требования 152-ФЗ о персональных данных: классификация ИСПДн, моделирование угроз, организационные и технические меры защиты, а также подготовку к проверкам Роскомнадзора.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal--delay-2">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>Что входит в бесплатный аудит безопасности?</span>
+            <svg class="faq-item__chevron" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Бесплатный аудит включает сканирование внешнего периметра, анализ конфигураций, оценку политик доступа и базовый phishing-тест. По итогам вы получите отчёт с топ-10 уязвимостей и рекомендациями по устранению.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>Можно ли интегрировать ShieldGuard с нашими текущими инструментами?</span>
+            <svg class="faq-item__chevron" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Мы поддерживаем интеграцию с 200+ платформами: Microsoft 365, AWS, Azure, Google Cloud, Jira, Slack, Splunk и другими. API и webhooks позволяют встроить мониторинг в существующие рабочие процессы без замены инструментов.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal reveal--delay">
+          <button class="faq-item__question" aria-expanded="false">
+            <span>Как вы реагируете на инциденты безопасности?</span>
+            <svg class="faq-item__chevron" width="20" height="20" viewBox="0 0 20 20"><path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+          </button>
+          <div class="faq-item__answer">
+            <p>Наш IR-процесс включает 6 этапов: обнаружение, анализ, локализация, устранение, восстановление и пост-инцидентный разбор. Среднее время реакции — 15 минут, полная локализация критичных инцидентов — до 4 часов.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="cta">
+    <div class="container">
+      <div class="cta__inner reveal">
+        <h2 class="cta__title">Защитите свой бизнес уже сегодня</h2>
+        <p class="cta__desc">Получите бесплатный аудит безопасности и персональный план защиты за 24 часа.</p>
+        <form class="cta__form" id="ctaForm">
+          <input type="email" placeholder="Ваш email" required aria-label="Email">
+          <button type="submit" class="btn btn--white btn--lg">Получить аудит</button>
+        </form>
+        <p class="cta__note">Без спама. Отменить подписку можно в любой момент.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="nav__logo-icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 2L4 7v7c0 6.1 4.3 11.8 10 13 5.7-1.2 10-6.9 10-13V7L14 2z" stroke="url(#logoGrad2)" stroke-width="2" fill="none"/><defs><linearGradient id="logoGrad2" x1="4" y1="2" x2="24" y2="22"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs></svg>
+            </span>
+            ShieldGuard
+          </a>
+          <p class="footer__tagline">Комплексная кибербезопасность для бизнеса любого масштаба.</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="Telegram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.53.15-1.95.3-3.88.35-1.9.05-3.53.05-4.88 0-1.93-.05-3.35-.2-3.88-.35-.9-.25-1.48-.83-1.73-1.73C2.16 15.8 2 14.19 2 12s.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73.53-.15 1.95-.3 3.88-.35 1.35-.05 2.98-.05 4.88 0 1.93.05 3.35.2 3.88.35.9.25 1.48.83 1.73 1.73z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Продукт</h4>
+          <a href="#benefits">Возможности</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#how">Как работает</a>
+          <a href="#">Интеграции</a>
+        </div>
+        <div class="footer__col">
+          <h4>Компания</h4>
+          <a href="#">О нас</a>
+          <a href="#">Карьера</a>
+          <a href="#">Блог</a>
+          <a href="#">Контакты</a>
+        </div>
+        <div class="footer__col">
+          <h4>Поддержка</h4>
+          <a href="#faq">FAQ</a>
+          <a href="#">Документация</a>
+          <a href="#">SLA</a>
+          <a href="#">Статус системы</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 ShieldGuard. Все права защищены.</p>
+        <div class="footer__legal">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Условия использования</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
